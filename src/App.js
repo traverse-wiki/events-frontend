@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import '../node_modules/skeleton-css/css/skeleton.css';
 import { EventList } from './Event'
 
 class App extends Component {
