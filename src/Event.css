@@ -1,0 +1,13 @@
+ul.filters, ul.Events {
+  list-style-type: none;
+}
+
+ul.filters {
+  padding: 10px 0 0 10px;
+}
+
+.Events .title {
+    color: #29add0;
+    font-weight: bold;
+    font-size: 16pt;
+}
