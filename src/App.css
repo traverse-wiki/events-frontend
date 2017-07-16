@@ -77,3 +77,11 @@ body {
     border-bottom: 0;
   }
 }
+
+/* Event action button container */
+.events__actions {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: .05rem solid #e5e5e5;
+}
+

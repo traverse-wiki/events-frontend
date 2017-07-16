@@ -8,7 +8,7 @@ export class EventList extends Component {
 
     // only show trivia just to test category filter
     this.state = { 
-      filters: ["trivia"],
+      filters: [],
     }
   }
   filterByCategory() {
@@ -19,6 +19,10 @@ export class EventList extends Component {
     })
   }
   renderListItem() {
+    // Handle when the database is empty
+    if (!this.props.events) {
+      return '';
+    }
     return this.filterByCategory().map((event, index) =>
       <Event key={index} details={event} />
     )
