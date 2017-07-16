@@ -7,16 +7,29 @@ export class EventList extends Component {
     super(props)
 
     this.state = { 
-      listItems: props.events.map((event, index) =>
-        <Event key={index} details={event} />
-      )
+      filters: [],
     }
   }
+  filterByCategory() {
+    if (!this.state.filters.length) return this.props.events
 
+    return this.props.events.filter((event) => {
+      return event.tags.some(t => this.state.filters.includes(t));
+    })
+  }
+  renderListItem() {
+    // Handle when the database is empty
+    if (!this.props.events) {
+      return '';
+    }
+    return this.filterByCategory().map((event, index) =>
+      <Event key={index} details={event} />
+    )
+  }
   render() {
     return (
       <ul className="Events">
-        {this.state.listItems}
+        {this.renderListItem(this.props.events)}
       </ul>
     );
   }
