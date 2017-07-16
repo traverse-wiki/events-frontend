@@ -14,55 +14,64 @@ class App extends Component {
           what: "DJ Motaz",
           where: "West Bay Beach Resort",
           when: new Date("2017-08-10 22:00:00"),
-          desc: "DJ Motaz Live at our on-site View Nightclub from 10 pm - 2 am at West Bay Beach"
+          desc: "DJ Motaz Live at our on-site View Nightclub from 10 pm - 2 am at West Bay Beach",
+          tags: ["music", "art", "alcohol"]
         },
         {
           what: "Monday Night Trivia!",
           where: "The Workshop",
           when: new Date("2017-08-06 13:00:00"),
-          desc: "A night of trivia."
+          desc: "A night of trivia.",
+          tags: ["trivia", "alcohol"]
         },
         {
           what: "Monte Nagler: Visions of Light",
           where: "Crooked Tree Arts Center",
           when: new Date("2017-08-05 16:30:00"),
-          desc: "A collection of photographic work by Michigan’s own Monte Nagler, a former student of Ansel Adams."
+          desc: "A collection of photographic work by Michigan’s own Monte Nagler, a former student of Ansel Adams.",
+          tags: ["art"]
         },
         {
           what: "DJ Motaz",
           where: "West Bay Beach Resort",
           when: new Date("2017-08-10 22:00:00"),
-          desc: "DJ Motaz Live at our on-site View Nightclub from 10 pm - 2 am at West Bay Beach"
+          desc: "DJ Motaz Live at our on-site View Nightclub from 10 pm - 2 am at West Bay Beach",
+          tags: ["music", "art", "alcohol"]
         },
         {
           what: "Monday Night Trivia!",
           where: "The Workshop",
           when: new Date("2017-08-06 13:00:00"),
-          desc: "A night of trivia."
+          desc: "A night of trivia.",
+          tags: ["trivia", "alcohol"]
         },
         {
           what: "Monte Nagler: Visions of Light",
           where: "Crooked Tree Arts Center",
           when: new Date("2017-08-05 16:30:00"),
-          desc: "A collection of photographic work by Michigan’s own Monte Nagler, a former student of Ansel Adams."
+          desc: "A collection of photographic work by Michigan’s own Monte Nagler, a former student of Ansel Adams.",
+          tags: ["art"]
         },
         {
           what: "DJ Motaz",
           where: "West Bay Beach Resort",
           when: new Date("2017-08-10 22:00:00"),
-          desc: "DJ Motaz Live at our on-site View Nightclub from 10 pm - 2 am at West Bay Beach"
+          desc: "DJ Motaz Live at our on-site View Nightclub from 10 pm - 2 am at West Bay Beach",
+          tags: ["music", "art", "alcohol"]
         },
         {
           what: "Monday Night Trivia!",
           where: "The Workshop",
           when: new Date("2017-08-06 13:00:00"),
-          desc: "A night of trivia."
+          desc: "A night of trivia.",
+          tags: ["trivia", "alcohol"]
         },
         {
           what: "Monte Nagler: Visions of Light",
           where: "Crooked Tree Arts Center",
           when: new Date("2017-08-05 16:30:00"),
-          desc: "A collection of photographic work by Michigan’s own Monte Nagler, a former student of Ansel Adams."
+          desc: "A collection of photographic work by Michigan’s own Monte Nagler, a former student of Ansel Adams.",
+          tags: ["art"]
         },
       ]
     }
