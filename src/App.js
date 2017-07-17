@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Nav, NavItem } from 'react-bootstrap';
-import './App.css';
-import { EventList } from './Event';
-import PostAnEvent from './PostAnEvent';
-import firebase from './firebase';
+import './css/App.css';
+import { EventListContainer } from './cont/EventListContainer';
+import { EditEventContainer } from './cont/EditEventContainer';
+import firebase from './data/firebase';
 
 class App extends Component {
   constructor(props) {
@@ -53,12 +53,17 @@ class App extends Component {
           <h3 className="text-muted">Events</h3>
         </div>
 
-         <div className="row events__main">
-           <EventList events={this.state.events} />
-         </div> 
+        <div className="row events__main">
+          <EventListContainer
+            events={this.state.events}
+            filters={[]}
+          />
+        </div> 
 
         <div className="row events__actions">
-          <PostAnEvent />
+          <EditEventContainer
+            actionCaption="Post an Event"
+          />
         </div>
 
         <footer className="footer">
