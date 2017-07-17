@@ -8,5 +8,7 @@ const config = {
   storageBucket: "tc-events.appspot.com",
   messagingSenderId: "202682525327"
 };
+
 firebase.initializeApp(config);
+
 export default firebase;
