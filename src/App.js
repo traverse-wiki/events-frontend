@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
+import { Nav, NavItem } from 'react-bootstrap';
 import './App.css';
 import { EventList } from './Event';
 import PostAnEvent from './PostAnEvent';
@@ -39,19 +39,17 @@ class App extends Component {
       <div className="App container">
 
         <div className="header clearfix">
-          <nav>
-            <ul className="nav nav-pills float-right">
-              <li className="nav-item">
-                <a className="nav-link active" href="#">Home <span className="sr-only">(current)</span></a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
+          <Nav bsStyle="pills">
+            <NavItem>
+              Home <span className="sr-only">(current)</span>
+            </NavItem>
+            <NavItem>
+              About
+            </NavItem>
+            <NavItem>
+              Contact
+            </NavItem>
+          </Nav>
           <h3 className="text-muted">Events</h3>
         </div>
 
