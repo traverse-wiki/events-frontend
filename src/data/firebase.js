@@ -1,7 +1,8 @@
 import firebase from 'firebase';
+import { apiKey } from '../private/firebase';
 
 const config = {
-  apiKey: "AIzaSyABljxdX4JeDbr5NGoeMyoAuUg1g9L4Dww",
+  apiKey: apiKey,
   authDomain: "tc-events.firebaseapp.com",
   databaseURL: "https://tc-events.firebaseio.com",
   projectId: "tc-events",

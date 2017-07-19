@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import firebase from '../data/firebase';
-import { EditEvent } from '../pres/EditEvent';
+import EditEvent from '../pres/EditEvent';
 
-export class EditEventContainer extends Component {
+export default class EditEventContainer extends Component {
   saveEvent(id, what, where, date, time, desc) {
     let eventListRef;
     let eventRef;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Modal, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
 
-export class EditEvent extends Component {
+export default class EditEvent extends Component {
   constructor(props) {
     super(props);
 

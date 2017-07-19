@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Nav, NavItem } from 'react-bootstrap';
 import './css/App.css';
-import { EventListContainer } from './cont/EventListContainer';
-import { EditEventContainer } from './cont/EditEventContainer';
+import EventListContainer from './cont/EventListContainer';
+import EditEventContainer from './cont/EditEventContainer';
 import firebase from './data/firebase';
 
 class App extends Component {

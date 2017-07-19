@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Moment from 'moment';
 import '../css/Event.css';
-import { EditEventContainer } from '../cont/EditEventContainer';
+import EditEventContainer from '../cont/EditEventContainer';
 
-export class Event extends Component {
+export default class Event extends Component {
   render() {
     let mom = Moment(this.props.when);
     return (
