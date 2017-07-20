@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Event } from './Event';
+import Event from './Event';
 
-export class EventList extends Component {
+export default class EventList extends Component {
   renderEvents() {
     // Handle when the database is empty
     if (!this.props.events)

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { EventList } from '../pres/EventList';
+import EventList from '../pres/EventList';
 
-export class EventListContainer extends Component {
+export default class EventListContainer extends Component {
   filterEvents(events, categoryFilters) {
-    if (!categoryFilters.length)
+    if (!categoryFilters || !categoryFilters.length)
       return events;
 
     return events.filter((event) => {
